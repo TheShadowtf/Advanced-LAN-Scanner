@@ -1,7 +1,7 @@
 # Folders
 __pycache__/
 proto/
-veenv/
+venv/
 web/
 
 # Specific files
