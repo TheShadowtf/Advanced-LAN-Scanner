@@ -24,8 +24,6 @@ I built this because Advanced IP Scanner (AIS) stopped opening on my laptop, so 
 
 # What this does today
 
-(Features already implemented in the repository you shared)
-
 * Concurrent ping sweep + ARP table read to find live hosts on targets.
 * Flexible target input: CIDR, ranges, wildcards, file lists (`utils.expand_targets`).
 * MAC address extraction from ARP and local/online OUI vendor lookup with caching (`utils.get_mac_vendor`).
@@ -53,7 +51,7 @@ I built this because Advanced IP Scanner (AIS) stopped opening on my laptop, so 
 
 Below is a comprehensive, exhaustive blueprint of everything you could add to reach parity with or exceed Advanced IP Scanner (AIS). Items are grouped and annotated with short notes so you can triage.
 
-## MUST / High-ROI (do these first)
+## MUST / High-ROI (these first)
 
 1. **Stable Tree/grouping fixes** — clear `_group_items` on new scan; use stable `group:<slug>` ids and guard `tree.exists()` before moves. (`gui.py`)
 2. **UPnP: robust XML fetch & parser** — extract `manufacturer`, `modelName`, `friendlyName`. (`scanner_core.py`)
@@ -106,7 +104,7 @@ pip install -r requirements.txt   # if you add this file
 
 ## Core Python deps (optional ones listed)
 
-* Python 3.8+
+* Python 3.11
 * Required (for basic features): `tkinter` (system package on some Linux), nothing else strictly required.
 * Optional but strongly recommended:
 
@@ -211,12 +209,6 @@ Tell me which one you want me to generate next and I’ll paste it here.
 
 # License
 
-Choose a license before releasing publicly. Suggested: **MIT** (permissive) or **Apache 2.0** (patent grant). I can generate a `LICENSE` file for you.
+ **MIT** (permissive). See the `LICENSE` file.
 
 ---
-
-# Final notes (short)
-
-This README is intended to be both a user quickstart and a dev blueprint. It lists the immediate useful improvements (UPnP, mDNS, SNMP, signature DB, SMB/NetBIOS parsing, UI polish) plus an exhaustive feature bank to approach full AIS parity. If you want, I’ll now generate the starter `signatures.json` and the code snippet to load and use it in your `scanner_core.py`. Which should I produce next?
-=======
-# Advanced-LAN-Scanner
