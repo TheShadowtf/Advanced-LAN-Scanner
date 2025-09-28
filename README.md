@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Advanced LAN Scanner — README
 
 **Short description**
@@ -220,4 +219,3 @@ Choose a license before releasing publicly. Suggested: **MIT** (permissive) or *
 This README is intended to be both a user quickstart and a dev blueprint. It lists the immediate useful improvements (UPnP, mDNS, SNMP, signature DB, SMB/NetBIOS parsing, UI polish) plus an exhaustive feature bank to approach full AIS parity. If you want, I’ll now generate the starter `signatures.json` and the code snippet to load and use it in your `scanner_core.py`. Which should I produce next?
 =======
 # Advanced-LAN-Scanner
->>>>>>> f671c0bec211e728466ceb6f3538f28f520d817d
