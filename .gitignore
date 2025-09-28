@@ -1,7 +1,10 @@
+# Folders
 __pycache__/
 proto/
 veenv/
 web/
+
+# Specific files
 TODO.txt
 Advanced LAN Scanner.docx
 mac_cache.json
