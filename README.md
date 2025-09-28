@@ -1,6 +1,7 @@
 # Advanced LAN Scanner — README
 
 **Short description**
+
 I built this because Advanced IP Scanner (AIS) stopped opening on my laptop, so I wrote my own LAN scanner with a focus on discoverability and extensibility. It’s a lightweight, open-source scanner that combines ping/ARP, UPnP/SSDP, mDNS, SNMP, banner probing and optional nmap for richer device/service fingerprinting. This repo is intended to be extended — see the long TODO/roadmap below.
 
 ---
